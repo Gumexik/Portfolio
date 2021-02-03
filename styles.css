@@ -149,11 +149,12 @@ body {
     grid-area: social;
   }
   .navigation-wrapper ul {
-    justify-content: center;
+    align-items: center;
     margin-top: 15px;
   }
   .main-header {
     display: grid;
+    justify-content: center;
     grid-template:
       "logo social"
       "navigation navigation";
