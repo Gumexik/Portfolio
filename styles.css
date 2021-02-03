@@ -159,7 +159,11 @@ body {
       "logo social"
       "navigation navigation";
   }
-
+  
+  .portfolio-btn {
+  margin-top: 60px;
+}
+  
   .main-section {
     margin: 100px 25px 0 25px;
   }
