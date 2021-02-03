@@ -11,6 +11,11 @@ body {
   color: white;
 }
 
+.underline {
+  border-bottom: 2px solid grey;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
 /* Whole landing page content */
 
 .showcase {
@@ -134,9 +139,24 @@ body {
   background-color: #1e1e1e;
 }
 
+/* Portfolio page */
+.cards-wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.projects-card {
+  height: 400px;
+  width: 100%;
+  background-color: lightgray;
+  border: 2px solid gray;
+  border-radius: 25px;
+  margin: 0 50px;
+}
+
 /* responsive settings */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 660px) {
   .logo {
     grid-area: logo;
   }
@@ -159,11 +179,11 @@ body {
       "logo social"
       "navigation navigation";
   }
-  
+
   .portfolio-btn {
-  margin-top: 60px;
-}
-  
+    margin-top: 60px;
+  }
+
   .main-section {
     margin: 100px 25px 0 25px;
   }
@@ -177,9 +197,21 @@ body {
     line-height: 45px;
     font-size: 35px;
   }
+
+  .cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    width: 100%;
+  }
+
+  .projects-card {
+    margin: 20px 0;
+  }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 660px) {
   .text-wrapper .typing {
     padding: 20px 0;
     color: #fff;
@@ -211,5 +243,10 @@ body {
     50% {
       border-color: #0964ec;
     }
+  }
+
+  cards-wrapper {
+    display: flex;
+    flex-direction: row;
   }
 }
