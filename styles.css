@@ -15,7 +15,7 @@ body {
 
 .showcase {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   flex-direction: column;
   background: url(images/bg6.jpg);
@@ -158,6 +158,10 @@ body {
     grid-template:
       "logo social"
       "navigation navigation";
+  }
+
+  .main-section {
+    margin: 100px 25px 0 25px;
   }
 
   .text-wrapper h1 {
