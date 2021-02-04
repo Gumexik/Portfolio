@@ -222,6 +222,8 @@ body {
   }
 
   .projects-card {
+    position: relative;
+    width: 90%;
     margin: 20px auto;
   }
 }
